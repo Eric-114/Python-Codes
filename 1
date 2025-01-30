@@ -1,0 +1,14 @@
+class Test():
+    def __init__(self):
+        b = True
+        while b:
+            a = input("What's your name?")
+            if '牛' in a:
+                result = a.replace('牛', '牛牛')
+                print(result)
+                print("NB！")
+                b=False
+            else:
+                print(a+a[-1])
+if __name__ == '__main__':
+    a=Test()
